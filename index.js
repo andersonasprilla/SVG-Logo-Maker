@@ -3,9 +3,10 @@ const fs = require('fs')
 
 const questions = [
     {
-        type: 'input',
+        type: 'list',
         message: 'what shape ?',
-        name: 'shape'
+        name: 'shapes',
+        choices: ['square', 'rectangle', 'circle', 'triangle']
     }
 ]
 
@@ -14,7 +15,7 @@ const writeToFile = (fileName, data) => {
         if(err){
             return console.err(err)
         }
-        console.log('Sucessfully wrote to ' + fileName)
+        console.log('Generated logo.svg')
     })
 }
 
@@ -22,7 +23,7 @@ const init = () => {
     inquirer
     .prompt(questions)
     .then((answers) => {
-        writeToFile('./examples/file.svg', answers.shape)
+        writeToFile('./examples/logo.svg', answers.shapes)       
     })
 }
 
