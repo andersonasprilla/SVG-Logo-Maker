@@ -42,7 +42,12 @@ node index.js
 
 After answering all the questions, the script will generate an SVG file named **logo.svg** in the `examples` directory and it will generate the logo:
 
-![SVG Image](data:image/svg+xml;base64,Cjxzdmcgd2lkdGg9IjMwMCIgaGVpZ2h0PSIyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8Y2lyY2xlIGN4PSIxNTAiIGN5PSIxMDAiIHI9IjEwMCIgZmlsbD0iZ3JlZW4iLz4KICAgIDx0ZXh0IHg9IjE1MCIgeT0iMTI1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ3aGl0ZSIgZm9udC1zaXplPSI4MCI+U1ZHPC90ZXh0Pgo8L3N2Zz4K)
+<div align="center">
+  <img src="./assets/logo.png">
+  <p>This image was created with Logo Maker</p>
+</div>
+
+
 
 
 ## Credits
