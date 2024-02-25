@@ -35,12 +35,12 @@ To start the application, open the integrated terminal and run:
 node index.js
 ```
 
-* Enter up to 3 characters: **Type up to 3 characters that you want to include in your logo**.
-* Type the text color (Use color keyword or Hex number): **Specify the color of the text in your logo. You can use a color name (e.g., "red") or a hex code (e.g., "#ff0000")**
-* Choose the logo shape: **Select a shape for your logo from the options: square, circle, or triangle.**
-* Type the shape color (Use color keyword or Hex number): **Specify the color of the shape in your logo. Like the text color, you can use a color name or a hex code.**
+* Enter up to 3 characters: `Type up to 3 characters that you want to include in your logo`.
+* Type the text color (Use color keyword or Hex number): `Specify the color of the text in your logo. You can use a color name (e.g., "red") or a hex code (e.g., "#ff0000")`
+* Choose the logo shape: `Select a shape for your logo from the options: square, circle, or triangle.`
+* Type the shape color (Use color keyword or Hex number): `Specify the color of the shape in your logo. Like the text color, you can use a color name or a hex code.`
 
-After answering all the questions, the script will generate an SVG file named **logo.svg** in the `examples` directory and it will generate the logo:
+After answering all the questions, the script will generate an SVG file named `logo.svg` in the `examples` directory and it will generate the logo:
 
 <div align="center">
   <img src="./assets/logo.png">
