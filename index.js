@@ -6,7 +6,13 @@ const questions = [
     {
         type: 'input',
         message: 'Enter up to 3 characters',
-        name: 'chars'
+        name: 'chars',
+        validate: function(value) {
+            if(value.length < 4) {
+                return true
+            }
+            return 'Please enter up to 3 characters'
+        }
     },
     {
         type: 'input',
