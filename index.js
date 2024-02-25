@@ -2,6 +2,7 @@ const inquirer = require('inquirer')
 const fs = require('fs')
 const generateSvg = require('./lib/generateSvg')
 
+// Define the questions to ask the user using inquirer
 const questions = [
     {
         type: 'input',
@@ -21,7 +22,7 @@ const questions = [
     },
     {
         type: 'list',
-        message: 'Choose on shape logo ',
+        message: 'Choose the logo shape ',
         name: 'shape',
         choices: ['square', 'circle', 'triangle']
     },
@@ -32,6 +33,7 @@ const questions = [
     },
 ]
 
+// Function to write the generated SVG content to a file
 const writeToFile = (fileName, data) => {
     fs.writeFile(fileName, data, (err) => {
         if(err){
@@ -41,6 +43,7 @@ const writeToFile = (fileName, data) => {
     })
 }
 
+// Main function to initialize the application
 const init = () => {
     inquirer
     .prompt(questions)
