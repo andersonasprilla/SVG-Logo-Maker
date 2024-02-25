@@ -21,13 +21,13 @@ const questions = [
     },
     {
         type: 'list',
-        message: 'what shape ?',
+        message: 'Choose on shape logo ',
         name: 'shape',
         choices: ['square', 'circle', 'triangle']
     },
     {
         type: 'input',
-        message: 'what shapes color ?',
+        message: 'Type the shape color (Use color keyword or Hex number) ',
         name: 'shapeColor',
     },
 ]
