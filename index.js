@@ -16,7 +16,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Type the text color',
+        message: 'Type the text color (Use color keyword or Hex number)',
         name: 'textColor'
     },
     {
